@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tissue Therapy - Landing Page
 
-## Getting Started
+Una landing page moderna y profesional para Tissue Therapy, un centro de masaje terapéutico en Narón, A Coruña.
 
-First, run the development server:
+## 🚀 Stack Tecnológico
+
+- **Framework**: Next.js 16.1.1 (App Router)
+- **TypeScript**: Para tipado estático
+- **Tailwind CSS v4**: Estilos utilitarios
+- **Framer Motion**: Animaciones fluidas
+- **React Hook Form**: Manejo de formularios
+- **Zod**: Validación de datos
+- **Lucide React**: Iconos modernos
+- **Radix UI**: Componentes accesibles
+
+## 📋 Características
+
+### Secciones Implementadas
+
+1. **Hero Section** - Presentación impactante con CTA
+2. **Services Section** - Muestra de los 3 servicios principales
+3. **Benefits Section** - Por qué elegir Tissue Therapy
+4. **About Section** - Información sobre el terapeuta
+5. **Process Section** - Cómo funciona el servicio (4 pasos)
+6. **Testimonials Section** - Testimonios de clientes
+7. **Pricing Section** - Tarifas transparentes y bonos
+8. **FAQ Section** - Preguntas frecuentes con acordeón
+9. **Location Section** - Mapa y datos de contacto
+10. **CTA Section** - Llamada a la acción final
+
+## 🚀 Comandos
+
+### Desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Inicia el servidor de desarrollo en http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Genera una build de producción optimizada
 
-To learn more about Next.js, take a look at the following resources:
+### Inicio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Inicia el servidor de producción
 
-## Deploy on Vercel
+## 🖼️ Imágenes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Actualmente el proyecto usa imágenes placeholder. Para usar imágenes reales:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Añade tus imágenes en `public/images/`
+2. Actualiza las referencias en `lib/constants.ts`
+3. Ver `public/images/README.md` para la lista completa
+
+## 📞 Información de Contacto
+
+Actualizar en `lib/constants.ts`:
+
+- Teléfono: +34 625 615 290
+- WhatsApp
+- Email: info@tissuetherapy.es
+- Dirección: Rúa Mestre Don Manuel, N° 1, Bajo, 15570 Narón
+
+## 🎨 Personalización
+
+### Cambiar contenido
+
+Edita `lib/constants.ts` para actualizar:
+
+- Servicios
+- Testimonios
+- FAQs
+- Información de contacto
+
+## 🚢 Deploy
+
+Listo para desplegar en Vercel, Netlify o cualquier plataforma Next.js.
+
+```bash
+vercel
+```
+
+---
+
+Desarrollado con Next.js 16
