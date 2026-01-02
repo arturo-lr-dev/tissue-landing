@@ -9,12 +9,12 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-green-600 text-white shadow hover:bg-green-700 focus-visible:ring-green-600",
+          "bg-primary-600 text-white shadow hover:bg-primary-700 focus-visible:ring-primary-600",
         secondary:
-          "bg-white text-green-600 border-2 border-green-600 shadow-sm hover:bg-green-50",
+          "bg-white text-primary-600 border-2 border-primary-600 shadow-sm hover:bg-primary-50",
         outline:
           "border-2 border-white text-white hover:bg-white/10 backdrop-blur",
-        ghost: "hover:bg-green-50 text-green-600",
+        ghost: "hover:bg-primary-50 text-primary-600",
       },
       size: {
         default: "h-12 px-6 py-3",

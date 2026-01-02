@@ -14,6 +14,12 @@ export const metadata: Metadata = {
     description: "Libérate del dolor muscular y recupera tu bienestar con nuestros tratamientos personalizados.",
     type: "website",
     locale: "es_ES",
+    images: [
+      {
+        url: "/og-image.png",
+        alt: "Tissue Therapy - Masaje Terapéutico Profesional",
+      },
+    ],
   },
 };
 

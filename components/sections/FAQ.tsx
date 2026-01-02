@@ -29,7 +29,7 @@ export function FAQ() {
               <FadeIn key={index} delay={index * 0.05}>
                 <AccordionItem
                   value={`item-${index}`}
-                  className="border border-gray-200 rounded-lg px-6 hover:border-green-600 transition-colors"
+                  className="border border-gray-200 rounded-lg px-6 hover:border-primary-600 transition-colors"
                 >
                   <AccordionTrigger className="text-left hover:no-underline py-5">
                     <span className="font-semibold text-lg pr-4 text-gray-900">

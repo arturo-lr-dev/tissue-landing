@@ -6,9 +6,9 @@ import { GraduationCap, Award, BookOpen, RefreshCw } from 'lucide-react'
 
 function CertificationBadge({ icon: Icon, text }: { icon: any; text: string }) {
   return (
-    <div className="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
-      <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-        <Icon className="w-5 h-5 text-green-600" />
+    <div className="flex items-center gap-3 p-3 bg-primary-50 rounded-lg">
+      <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+        <Icon className="w-5 h-5 text-primary-600" />
       </div>
       <span className="text-gray-700 font-medium">{text}</span>
     </div>
@@ -34,15 +34,15 @@ export function About() {
               {/* Stats Overlay */}
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/70 to-transparent p-6">
                 <div className="grid grid-cols-3 gap-4 text-white text-center">
-                  <div>
-                    <div className="text-3xl md:text-4xl font-bold mb-1">5+</div>
+                  <div className="text-primary-400">
+                    <div className="text-3xl md:text-4xl font-bold  mb-1">5+</div>
                     <div className="text-xs md:text-sm">Años</div>
                   </div>
-                  <div>
+                  <div className="text-primary-400">
                     <div className="text-3xl md:text-4xl font-bold mb-1">1000+</div>
                     <div className="text-xs md:text-sm">Clientes</div>
                   </div>
-                  <div>
+                  <div className="text-primary-400">
                     <div className="text-3xl md:text-4xl font-bold mb-1">98%</div>
                     <div className="text-xs md:text-sm">Satisfacción</div>
                   </div>
@@ -58,7 +58,7 @@ export function About() {
                 Sobre Tissue Therapy
               </h2>
 
-              <h3 className="text-2xl font-semibold text-green-600 mb-4">
+              <h3 className="text-2xl font-semibold text-primary-600 mb-4">
                 Tu Salud en Buenas Manos
               </h3>
 

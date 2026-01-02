@@ -10,28 +10,28 @@ const steps = [
     icon: Calendar,
     title: 'Reserva Tu Cita',
     description: 'Elige día y hora online en 2 minutos o por WhatsApp',
-    image: 'https://placehold.co/800x600/10b981/white?text=Book+Appointment'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Book+Appointment'
   },
   {
     number: '02',
     icon: MessageCircle,
     title: 'Consulta Inicial',
     description: 'Conversamos sobre tus molestias y objetivos',
-    image: 'https://placehold.co/800x600/10b981/white?text=Initial+Consultation'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Initial+Consultation'
   },
   {
     number: '03',
     icon: Hand,
     title: 'Tratamiento Personalizado',
     description: 'Aplicamos técnicas adaptadas a tu situación',
-    image: 'https://placehold.co/800x600/10b981/white?text=Treatment'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Treatment'
   },
   {
     number: '04',
     icon: TrendingUp,
     title: 'Seguimiento Continuo',
     description: 'Evaluamos progreso y ajustamos según tu evolución',
-    image: 'https://placehold.co/800x600/10b981/white?text=Follow+Up'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Follow+Up'
   }
 ]
 
@@ -77,8 +77,8 @@ export function Process() {
                     {/* Content */}
                     <div className="flex-1">
                       <div className="flex items-center gap-4 mb-4">
-                        <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-                          <Icon className="w-8 h-8 text-green-600" />
+                        <div className="w-16 h-16 rounded-full bg-primary-100 flex items-center justify-center flex-shrink-0">
+                          <Icon className="w-8 h-8 text-primary-600" />
                         </div>
                         <span className="text-6xl font-bold text-gray-100">
                           {step.number}
@@ -95,7 +95,7 @@ export function Process() {
                 {/* Connector Line (except for last item) */}
                 {index < steps.length - 1 && (
                   <div className="flex justify-center py-6">
-                    <div className="w-0.5 h-12 bg-gradient-to-b from-green-600 via-green-400 to-green-200" />
+                    <div className="w-0.5 h-12 bg-gradient-to-b from-primary-600 via-primary-400 to-primary-200" />
                   </div>
                 )}
               </div>

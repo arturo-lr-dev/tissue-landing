@@ -56,8 +56,8 @@ export function Pricing() {
               <FadeIn key={service.id} delay={index * 0.1}>
                 <Card className="h-full hover:shadow-xl transition-shadow">
                   <CardHeader>
-                    <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
-                      <Icon className="w-6 h-6 text-green-600" />
+                    <div className="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center mb-4">
+                      <Icon className="w-6 h-6 text-primary-600" />
                     </div>
                     <CardTitle className="text-2xl">{service.title}</CardTitle>
                     <CardDescription>{service.description}</CardDescription>
@@ -73,15 +73,15 @@ export function Pricing() {
                             key={i}
                             className={`flex items-center justify-between p-3 rounded-lg border-2 transition-colors ${
                               isPopular
-                                ? 'border-green-600 bg-green-50'
-                                : 'border-gray-200 hover:border-green-200'
+                                ? 'border-primary-600 bg-primary-50'
+                                : 'border-gray-200 hover:border-primary-200'
                             }`}
                           >
                             <span className="font-medium">
                               {duration.minutes} min
                             </span>
                             <div className="flex items-center gap-2">
-                              <span className="text-2xl font-bold text-green-600">
+                              <span className="text-2xl font-bold text-primary-600">
                                 {duration.price}€
                               </span>
                               {isPopular && (
@@ -99,7 +99,7 @@ export function Pricing() {
                     <ul className="space-y-3 mb-6">
                       {service.benefits.slice(0, 4).map((benefit, i) => (
                         <li key={i} className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                           <span className="text-sm text-gray-600">{benefit}</span>
                         </li>
                       ))}
@@ -117,7 +117,7 @@ export function Pricing() {
 
         {/* Bonos Section */}
         <FadeIn delay={0.3}>
-          <div className="bg-gradient-to-br from-green-600 to-green-700 rounded-2xl p-8 md:p-12 text-white mb-8">
+          <div className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-2xl p-8 md:p-12 text-white mb-8">
             <h3 className="text-3xl md:text-4xl font-bold text-center mb-8">
               💎 Bonos de Ahorro
             </h3>
@@ -185,8 +185,8 @@ export function Pricing() {
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 max-w-4xl mx-auto">
               {included.map((item, index) => (
                 <div key={index} className="text-center">
-                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-2">
-                    <Check className="w-6 h-6 text-green-600" />
+                  <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                    <Check className="w-6 h-6 text-primary-600" />
                   </div>
                   <span className="text-sm text-gray-600 font-medium">
                     {item}

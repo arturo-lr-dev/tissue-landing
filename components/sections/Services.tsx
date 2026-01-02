@@ -44,7 +44,7 @@ export function Services() {
                         unoptimized
                       />
                       <div className="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
-                        <span className="text-sm font-semibold text-green-600">
+                        <span className="text-sm font-semibold text-primary-600">
                           Desde {lowestPrice}€
                         </span>
                       </div>
@@ -52,8 +52,8 @@ export function Services() {
 
                     <CardContent className="p-6">
                       <div className="flex items-center gap-3 mb-3">
-                        <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                          <Icon className="w-6 h-6 text-green-600" />
+                        <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                          <Icon className="w-6 h-6 text-primary-600" />
                         </div>
                         <h3 className="text-xl font-bold">{service.title}</h3>
                       </div>
@@ -63,7 +63,7 @@ export function Services() {
                       <div className="space-y-2 mb-6">
                         {service.benefits.slice(0, 3).map((benefit, i) => (
                           <div key={i} className="flex items-center gap-2 text-sm">
-                            <Check className="w-4 h-4 text-green-600 flex-shrink-0" />
+                            <Check className="w-4 h-4 text-primary-600 flex-shrink-0" />
                             <span className="text-gray-700">{benefit}</span>
                           </div>
                         ))}
@@ -82,7 +82,7 @@ export function Services() {
                       </div>
 
                       {false && <div className="mt-4 pt-4 border-t border-gray-200">
-                        <span className="text-green-600 font-semibold flex items-center gap-1 justify-center group-hover:gap-2 transition-all">
+                        <span className="text-primary-600 font-semibold flex items-center gap-1 justify-center group-hover:gap-2 transition-all">
                           Más información
                           <ArrowRight className="w-4 h-4" />
                         </span>

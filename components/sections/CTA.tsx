@@ -10,14 +10,14 @@ export function CTA() {
   )}`
 
   return (
-    <section id="reservar" className="py-20 bg-gradient-to-br from-green-600 to-green-700 text-white">
+    <section id="reservar" className="py-20 bg-gradient-to-br from-primary-600 to-primary-700 text-white">
       <div className="container mx-auto px-4">
         <FadeIn>
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               ¿Listo para Recuperar tu Bienestar?
             </h2>
-            <p className="text-xl md:text-2xl mb-12 text-green-50 leading-relaxed">
+            <p className="text-xl md:text-2xl mb-12 text-primary-50 leading-relaxed">
               Reserva tu sesión hoy y da el primer paso hacia una vida sin dolor
               y con más energía. Tu salud merece la mejor atención.
             </p>
@@ -42,21 +42,21 @@ export function CTA() {
               <div className="bg-white/10 backdrop-blur rounded-lg p-6">
                 <Calendar className="w-10 h-10 mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Reserva Fácil</h3>
-                <p className="text-sm text-green-50">
+                <p className="text-sm text-primary-50">
                   Online 24/7 o por WhatsApp
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6">
                 <MessageCircle className="w-10 h-10 mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Respuesta Rápida</h3>
-                <p className="text-sm text-green-50">
+                <p className="text-sm text-primary-50">
                   Te confirmamos en minutos
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6">
                 <Phone className="w-10 h-10 mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Atención Personal</h3>
-                <p className="text-sm text-green-50">
+                <p className="text-sm text-primary-50">
                   Resolvemos todas tus dudas
                 </p>
               </div>

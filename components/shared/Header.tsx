@@ -24,11 +24,11 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
+            <div className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-xl">T</span>
             </div>
             <span className="font-bold text-xl text-gray-900">
-              Tissue <span className="text-green-600">Therapy</span>
+              <span className="text-secondary-600">Tissue</span> <span className="text-primary-600">Therapy</span>
             </span>
           </Link>
 
@@ -38,7 +38,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gray-600 hover:text-green-600 font-medium transition-colors"
+                className="text-gray-600 hover:text-primary-600 font-medium transition-colors"
               >
                 {link.label}
               </Link>
@@ -49,7 +49,7 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href={`tel:${CONTACT_INFO.phone}`}
-              className="flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors"
+              className="flex items-center gap-2 text-gray-600 hover:text-primary-600 transition-colors"
             >
               <Phone className="w-5 h-5" />
               <span className="font-medium">{CONTACT_INFO.phone}</span>
@@ -62,7 +62,7 @@ export function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 text-gray-600 hover:text-green-600 transition-colors"
+            className="lg:hidden p-2 text-gray-600 hover:text-primary-600 transition-colors"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
@@ -82,7 +82,7 @@ export function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="text-gray-600 hover:text-green-600 font-medium transition-colors py-2"
+                  className="text-gray-600 hover:text-primary-600 font-medium transition-colors py-2"
                 >
                   {link.label}
                 </Link>
@@ -90,7 +90,7 @@ export function Header() {
               <div className="pt-4 border-t border-gray-200 space-y-3">
                 <a
                   href={`tel:${CONTACT_INFO.phone}`}
-                  className="flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors py-2"
+                  className="flex items-center gap-2 text-gray-600 hover:text-primary-600 transition-colors py-2"
                 >
                   <Phone className="w-5 h-5" />
                   <span className="font-medium">{CONTACT_INFO.phone}</span>

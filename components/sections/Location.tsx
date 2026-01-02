@@ -36,8 +36,8 @@ export function Location() {
             <div className="space-y-6">
               {/* Address */}
               <div className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-primary-600" />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Dirección</h3>
@@ -47,14 +47,14 @@ export function Location() {
 
               {/* Phone */}
               <div className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Phone className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Phone className="w-6 h-6 text-primary-600" />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Teléfono</h3>
                   <a
                     href={`tel:${CONTACT_INFO.phone}`}
-                    className="text-gray-600 hover:text-green-600 transition-colors"
+                    className="text-gray-600 hover:text-primary-600 transition-colors"
                   >
                     {CONTACT_INFO.phone}
                   </a>
@@ -63,14 +63,14 @@ export function Location() {
 
               {/* Email */}
               <div className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Mail className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Mail className="w-6 h-6 text-primary-600" />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Email</h3>
                   <a
                     href={`mailto:${CONTACT_INFO.email}`}
-                    className="text-gray-600 hover:text-green-600 transition-colors"
+                    className="text-gray-600 hover:text-primary-600 transition-colors"
                   >
                     {CONTACT_INFO.email}
                   </a>
@@ -79,8 +79,8 @@ export function Location() {
 
               {/* Schedule */}
               <div className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Clock className="w-6 h-6 text-primary-600" />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-2">Horario</h3>
@@ -93,14 +93,14 @@ export function Location() {
               </div>
 
               {/* How to Get There */}
-              <div className="bg-green-50 border-2 border-green-200 rounded-lg p-6">
+              <div className="bg-primary-50 border-2 border-primary-200 rounded-lg p-6">
                 <h3 className="font-bold text-xl mb-4 flex items-center gap-2">
-                  <MapPinned className="w-6 h-6 text-green-600" />
+                  <MapPinned className="w-6 h-6 text-primary-600" />
                   Cómo Llegar
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
-                    <Car className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <Car className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="font-semibold text-gray-900">En Coche</p>
                       <p className="text-sm text-gray-600">
@@ -110,7 +110,7 @@ export function Location() {
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <Bus className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <Bus className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="font-semibold text-gray-900">
                         Transporte Público

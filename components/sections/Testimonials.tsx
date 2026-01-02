@@ -10,7 +10,7 @@ function TestimonialCard({ testimonial }: { testimonial: typeof TESTIMONIALS[0] 
     <Card className="h-full bg-white hover:shadow-xl transition-shadow">
       <CardContent className="p-6">
         {/* Quote Icon */}
-        <Quote className="w-10 h-10 text-green-200 mb-4" />
+        <Quote className="w-10 h-10 text-primary-200 mb-4" />
 
         {/* Rating */}
         <div className="flex gap-1 mb-4">
@@ -31,7 +31,7 @@ function TestimonialCard({ testimonial }: { testimonial: typeof TESTIMONIALS[0] 
         <div className="flex items-center gap-4 border-t pt-4">
           <Avatar className="w-12 h-12">
             <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
-            <AvatarFallback className="bg-green-100 text-green-600">
+            <AvatarFallback className="bg-primary-100 text-primary-600">
               {testimonial.name.charAt(0)}
             </AvatarFallback>
           </Avatar>
@@ -56,7 +56,7 @@ function TestimonialCard({ testimonial }: { testimonial: typeof TESTIMONIALS[0] 
 
 export function Testimonials() {
   return (
-    <section className="py-20 bg-green-50">
+    <section className="py-20 bg-primary-50">
       <div className="container mx-auto px-4">
         <FadeIn>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
@@ -80,13 +80,13 @@ export function Testimonials() {
         <FadeIn delay={0.4}>
           <div className="flex flex-wrap justify-center gap-12 mt-12 p-8 bg-white rounded-xl shadow-sm">
             <div className="text-center">
-              <div className="text-5xl font-bold text-green-600 mb-2">98%</div>
+              <div className="text-5xl font-bold text-primary-600 mb-2">98%</div>
               <div className="text-sm text-gray-600 font-medium">
                 Satisfacción
               </div>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-green-600 mb-2">
+              <div className="text-5xl font-bold text-primary-600 mb-2">
                 1000+
               </div>
               <div className="text-sm text-gray-600 font-medium">
@@ -94,7 +94,7 @@ export function Testimonials() {
               </div>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-green-600 mb-2">5.0</div>
+              <div className="text-5xl font-bold text-primary-600 mb-2">5.0</div>
               <div className="text-sm text-gray-600 font-medium">
                 Valoración Media
               </div>

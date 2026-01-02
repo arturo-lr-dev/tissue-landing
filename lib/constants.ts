@@ -43,7 +43,7 @@ export const SERVICES = [
       { minutes: 60, price: 30 },
       { minutes: 90, price: 55 }
     ],
-    image: 'https://placehold.co/800x600/10b981/white?text=Deep+Tissue+Massage'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Deep+Tissue+Massage'
   },
   {
     id: 'therapeutic',
@@ -67,7 +67,7 @@ export const SERVICES = [
       { minutes: 60, price: 30 },
       { minutes: 90, price: 55 }
     ],
-    image: 'https://placehold.co/800x600/10b981/white?text=Therapeutic+Massage'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Therapeutic+Massage'
   },
   {
     id: 'kinesitherapy',
@@ -91,7 +91,7 @@ export const SERVICES = [
       { minutes: 45, price: 30 },
       { minutes: 60, price: 55 }
     ],
-    image: 'https://placehold.co/800x600/10b981/white?text=Kinesitherapy'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Kinesitherapy'
   }
 ]
 
@@ -101,7 +101,7 @@ export const TESTIMONIALS = [
     id: 1,
     name: 'María González',
     role: 'Profesora, 42 años',
-    avatar: 'https://ui-avatars.com/api/?name=Maria+Gonzalez&background=10b981&color=fff&size=128',
+    avatar: 'https://ui-avatars.com/api/?name=Maria+Gonzalez&background=7000a0&color=fff&size=128',
     rating: 5,
     text: 'Después de meses con dolor de espalda crónico, finalmente encontré alivio en Tissue Therapy. El trato es excelente y los resultados increíbles.',
     service: 'Masaje Terapéutico'
@@ -110,7 +110,7 @@ export const TESTIMONIALS = [
     id: 2,
     name: 'Carlos Martínez',
     role: 'Corredor, 35 años',
-    avatar: 'https://ui-avatars.com/api/?name=Carlos+Martinez&background=10b981&color=fff&size=128',
+    avatar: 'https://ui-avatars.com/api/?name=Carlos+Martinez&background=7000a0&color=fff&size=128',
     rating: 5,
     text: 'Como deportista, necesitaba un profesional que entendiera mis necesidades. Las sesiones de kinesioterapia me han ayudado a recuperarme más rápido de mis entrenamientos y prevenir lesiones.',
     service: 'Kinesioterapia'
@@ -119,7 +119,7 @@ export const TESTIMONIALS = [
     id: 3,
     name: 'Laura Fernández',
     role: 'Administrativa, 38 años',
-    avatar: 'https://ui-avatars.com/api/?name=Laura+Fernandez&background=10b981&color=fff&size=128',
+    avatar: 'https://ui-avatars.com/api/?name=Laura+Fernandez&background=7000a0&color=fff&size=128',
     rating: 5,
     text: 'El masaje de tejido profundo cambió mi vida. Trabajo muchas horas en oficina y tenía contracturas constantes. Ahora me siento mucho mejor y con más energía.',
     service: 'Masaje de Tejido Profundo'
@@ -128,7 +128,7 @@ export const TESTIMONIALS = [
     id: 4,
     name: 'Javier López',
     role: 'Ingeniero, 45 años',
-    avatar: 'https://ui-avatars.com/api/?name=Javier+Lopez&background=10b981&color=fff&size=128',
+    avatar: 'https://ui-avatars.com/api/?name=Javier+Lopez&background=7000a0&color=fff&size=128',
     rating: 5,
     text: 'Ambiente muy profesional y relajante. El terapeuta se toma el tiempo para entender tu problema y adaptar el tratamiento. Los resultados hablan por sí solos.',
     service: 'Masaje Terapéutico'

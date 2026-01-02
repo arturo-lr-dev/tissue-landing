@@ -9,7 +9,7 @@ import { ChevronDown, Shield, Award, Target, Heart } from 'lucide-react'
 function TrustBadge({ icon: Icon, text }: { icon: any; text: string }) {
   return (
     <div className="flex flex-col items-center gap-2 text-center">
-      <Icon className="w-8 h-8 text-green-400" />
+      <Icon className="w-8 h-8 text-primary-400" />
       <span className="text-sm font-medium">{text}</span>
     </div>
   )
