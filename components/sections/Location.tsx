@@ -20,7 +20,7 @@ export function Location() {
           <FadeIn>
             <div className="relative h-[400px] rounded-xl overflow-hidden shadow-lg bg-gray-200">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.2!2d-8.1!3d43.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDMwJzAwLjAiTiA4wrAwNicwMC4wIlc!5e0!3m2!1ses!2ses!4v1234567890123"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.174526723441!2d-8.2045848!3d43.4986946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2ddf1c9cafb87b%3A0xbf40e07e7289cb19!2sTissue%20Therapy%20-Masaje%20profesional%20%26%20Relax-!5e0!3m2!1ses!2ses!4v1767351855383!5m2!1ses!2ses"
                 className="absolute inset-0 w-full h-full"
                 style={{ border: 0 }}
                 allowFullScreen

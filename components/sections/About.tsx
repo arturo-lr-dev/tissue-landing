@@ -24,7 +24,7 @@ export function About() {
           <FadeIn>
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://placehold.co/800x1000/10b981/white?text=Professional+Therapist"
+                src="images/therapist-portrait.jpg"
                 alt="Terapeuta profesional"
                 fill
                 className="object-cover"

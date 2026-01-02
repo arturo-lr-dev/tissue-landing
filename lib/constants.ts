@@ -2,7 +2,7 @@
 export const CONTACT_INFO = {
   phone: '+34 625 615 290',
   whatsapp: '+34625615290',
-  email: 'info@tissuetherapy.es',
+  email: 'tissuetherapympl@gmail.com',
   address: {
     street: 'Rúa Mestre Don Manuel, N° 1, Bajo',
     city: 'Narón',
@@ -40,8 +40,8 @@ export const SERVICES = [
       'Posturas incorrectas prolongadas'
     ],
     durations: [
-      { minutes: 60, price: 45 },
-      { minutes: 90, price: 65 }
+      { minutes: 60, price: 30 },
+      { minutes: 90, price: 55 }
     ],
     image: 'https://placehold.co/800x600/10b981/white?text=Deep+Tissue+Massage'
   },
@@ -64,8 +64,8 @@ export const SERVICES = [
       'Gestión del estrés'
     ],
     durations: [
-      { minutes: 60, price: 50 },
-      { minutes: 90, price: 70 }
+      { minutes: 60, price: 30 },
+      { minutes: 90, price: 55 }
     ],
     image: 'https://placehold.co/800x600/10b981/white?text=Therapeutic+Massage'
   },
@@ -88,8 +88,8 @@ export const SERVICES = [
       'Prevención de lesiones recurrentes'
     ],
     durations: [
-      { minutes: 45, price: 40 },
-      { minutes: 60, price: 50 }
+      { minutes: 45, price: 30 },
+      { minutes: 60, price: 55 }
     ],
     image: 'https://placehold.co/800x600/10b981/white?text=Kinesitherapy'
   }

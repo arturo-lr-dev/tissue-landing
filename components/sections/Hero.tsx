@@ -21,7 +21,7 @@ export function Hero() {
       {/* Background Image con overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://placehold.co/1920x1080/10b981/white?text=Professional+Massage+Therapy"
+          src="images/hero-massage.jpg"
           alt="Sala de masajes profesional"
           fill
           className="object-cover"
