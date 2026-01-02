@@ -50,7 +50,7 @@ export function FAQ() {
             <p className="text-gray-600 mb-4 text-lg">
               ¿Tienes más preguntas?
             </p>
-            <Button variant="outline" size="lg" asChild>
+            <Button variant="secondary" size="lg" asChild>
               <Link href="#contacto">
                 Contáctanos
                 <MessageCircle className="ml-2 w-5 h-5" />
