@@ -81,12 +81,12 @@ export function Services() {
                         ))}
                       </div>
 
-                      <div className="mt-4 pt-4 border-t border-gray-200">
+                      {false && <div className="mt-4 pt-4 border-t border-gray-200">
                         <span className="text-green-600 font-semibold flex items-center gap-1 justify-center group-hover:gap-2 transition-all">
                           Más información
                           <ArrowRight className="w-4 h-4" />
                         </span>
-                      </div>
+                      </div>}
                     </CardContent>
                   </Card>
                 </Link>
