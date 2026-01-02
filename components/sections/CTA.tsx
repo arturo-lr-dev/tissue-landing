@@ -43,7 +43,7 @@ export function CTA() {
                 <Calendar className="w-10 h-10 mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Reserva Fácil</h3>
                 <p className="text-sm text-primary-50">
-                  Online 24/7 o por WhatsApp
+                  Por WhatsApp
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6">

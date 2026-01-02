@@ -9,7 +9,7 @@ const steps = [
     number: '01',
     icon: Calendar,
     title: 'Reserva Tu Cita',
-    description: 'Elige día y hora online en 2 minutos o por WhatsApp',
+    description: 'Elige día y hora por WhatsApp',
     image: 'https://placehold.co/800x600/7000a0/white?text=Book+Appointment'
   },
   {
