@@ -99,38 +99,38 @@ export const SERVICES = [
 export const TESTIMONIALS = [
   {
     id: 1,
-    name: 'María González',
-    role: 'Profesora, 42 años',
-    avatar: 'https://ui-avatars.com/api/?name=Maria+Gonzalez&background=7000a0&color=fff&size=128',
+    name: 'Manuel Fernandez',
+    role: 'Local Guide',
+    avatar: 'https://ui-avatars.com/api/?name=Manuel+Fernandez&background=7000a0&color=fff&size=128',
     rating: 5,
-    text: 'Después de meses con dolor de espalda crónico, finalmente encontré alivio en Tissue Therapy. El trato es excelente y los resultados increíbles.',
-    service: 'Masaje Terapéutico'
-  },
-  {
-    id: 2,
-    name: 'Carlos Martínez',
-    role: 'Corredor, 35 años',
-    avatar: 'https://ui-avatars.com/api/?name=Carlos+Martinez&background=7000a0&color=fff&size=128',
-    rating: 5,
-    text: 'Como deportista, necesitaba un profesional que entendiera mis necesidades. Las sesiones de kinesioterapia me han ayudado a recuperarme más rápido de mis entrenamientos y prevenir lesiones.',
+    text: 'Muy buen profesional y gran persona. Llegue con bastante dolor y en 2 sesiones la mejora es increible. Totalmente recomendable, y mucho trabajo de manos, el cual marca la diferencia con otros profesionales.',
     service: 'Kinesioterapia'
   },
   {
-    id: 3,
-    name: 'Laura Fernández',
-    role: 'Administrativa, 38 años',
-    avatar: 'https://ui-avatars.com/api/?name=Laura+Fernandez&background=7000a0&color=fff&size=128',
+    id: 2,
+    name: 'Jenn Riveira',
+    role: 'Local Guide',
+    avatar: 'https://ui-avatars.com/api/?name=Jenn+Riveira&background=7000a0&color=fff&size=128',
     rating: 5,
-    text: 'El masaje de tejido profundo cambió mi vida. Trabajo muchas horas en oficina y tenía contracturas constantes. Ahora me siento mucho mejor y con más energía.',
-    service: 'Masaje de Tejido Profundo'
+    text: 'Genial! Mil por ciento recomendable. Se preocupa por que salgas como nuev@ de la sesión, siempre me pregunta cómo me ha ido la semana para saber qué zona trabajar. Muy agradable y simpático, te hace sentir comoda en todo momento y es super respetuoso 😀',
+    service: 'Masaje Terapéutico'
+  },
+  {
+    id: 3,
+    name: 'Noelia Pupi',
+    role: '',
+    avatar: 'https://ui-avatars.com/api/?name=Noelia+Pupi&background=7000a0&color=fff&size=128',
+    rating: 5,
+    text: 'Después de ir a muchos centros sin duda este es el mejor, trato estupendo, sitio muy acogedor e higiénico...se nota cuando a la gente le gusta lo que hace y ayudar a los demás. Hacía mucho tiempo que no me sentía tan bien y tan cómoda.',
+    service: 'Masaje Terapéutico'
   },
   {
     id: 4,
-    name: 'Javier López',
-    role: 'Ingeniero, 45 años',
-    avatar: 'https://ui-avatars.com/api/?name=Javier+Lopez&background=7000a0&color=fff&size=128',
+    name: 'Maria Bardaos',
+    role: '',
+    avatar: 'https://ui-avatars.com/api/?name=Maria+Bardaos&background=7000a0&color=fff&size=128',
     rating: 5,
-    text: 'Ambiente muy profesional y relajante. El terapeuta se toma el tiempo para entender tu problema y adaptar el tratamiento. Los resultados hablan por sí solos.',
+    text: 'Excelente experiencia con el fisioterapeuta. Su enfoque profesional y empático, combinado con un tratamiento personalizado, resultó en una notable mejora en mi movilidad y reducción del dolor. Altamente recomendado para aquellos que buscan atención experta y personalizada.',
     service: 'Masaje Terapéutico'
   }
 ]
