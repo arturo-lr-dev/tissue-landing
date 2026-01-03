@@ -17,7 +17,7 @@ export function Footer() {
                 <span className="text-secondary-600">Tissue</span> <span className="text-primary-600">Therapy</span>
               </span>
             </div>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-100 mb-4">
               Tu bienestar es nuestra prioridad. Masaje terapéutico profesional
               en Narón.
             </p>
@@ -50,7 +50,7 @@ export function Footer() {
               <li>
                 <Link
                   href="#servicios"
-                  className="text-gray-400 hover:text-primary-600 transition-colors"
+                  className="text-gray-100 hover:text-primary-600 transition-colors"
                 >
                   Nuestros Servicios
                 </Link>
@@ -58,7 +58,7 @@ export function Footer() {
               <li>
                 <Link
                   href="#sobre-nosotros"
-                  className="text-gray-400 hover:text-primary-600 transition-colors"
+                  className="text-gray-100 hover:text-primary-600 transition-colors"
                 >
                   Sobre Nosotros
                 </Link>
@@ -66,7 +66,7 @@ export function Footer() {
               <li>
                 <Link
                   href="#precios"
-                  className="text-gray-400 hover:text-primary-600 transition-colors"
+                  className="text-gray-100 hover:text-primary-600 transition-colors"
                 >
                   Precios
                 </Link>
@@ -74,7 +74,7 @@ export function Footer() {
               <li>
                 <Link
                   href="#faq"
-                  className="text-gray-400 hover:text-primary-600 transition-colors"
+                  className="text-gray-100 hover:text-primary-600 transition-colors"
                 >
                   Preguntas Frecuentes
                 </Link>
@@ -82,7 +82,7 @@ export function Footer() {
               <li>
                 <Link
                   href="#reservar"
-                  className="text-gray-400 hover:text-primary-600 transition-colors"
+                  className="text-gray-100 hover:text-primary-600 transition-colors"
                 >
                   Reservar Cita
                 </Link>
@@ -98,7 +98,7 @@ export function Footer() {
                 <Phone className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                 <a
                   href={`tel:${CONTACT_INFO.phone}`}
-                  className="text-gray-400 hover:text-primary-600 transition-colors"
+                  className="text-gray-100 hover:text-primary-600 transition-colors"
                 >
                   {CONTACT_INFO.phone}
                 </a>
@@ -107,14 +107,14 @@ export function Footer() {
                 <Mail className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                 <a
                   href={`mailto:${CONTACT_INFO.email}`}
-                  className="text-gray-400 hover:text-primary-600 transition-colors"
+                  className="text-gray-100 hover:text-primary-600 transition-colors"
                 >
                   {CONTACT_INFO.email}
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-400">
+                <span className="text-gray-100">
                   {CONTACT_INFO.address.full}
                 </span>
               </li>
@@ -127,7 +127,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
-                <div className="text-gray-400">
+                <div className="text-gray-100">
                   <div>{SCHEDULE.weekdays}</div>
                   <div className="mt-2">{SCHEDULE.saturday}</div>
                   <div className="mt-2">{SCHEDULE.sunday}</div>
@@ -138,7 +138,7 @@ export function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-100 text-sm">
           <p>
             © {new Date().getFullYear()} Tissue Therapy. Todos los derechos
             reservados.
