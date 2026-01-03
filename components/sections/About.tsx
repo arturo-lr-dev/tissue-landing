@@ -24,7 +24,7 @@ export function About() {
           <FadeIn>
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="images/therapist-portrait.jpg"
+                src="images/therapist-portrait.webp"
                 alt="Terapeuta profesional"
                 fill
                 className="object-cover"

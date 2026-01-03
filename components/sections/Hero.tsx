@@ -21,7 +21,7 @@ export function Hero() {
       {/* Background Image con overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="images/hero-massage.jpg"
+          src="images/hero-massage.webp"
           alt="Sala de masajes profesional"
           fill
           className="object-cover"
