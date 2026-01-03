@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     locale: "es_ES",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image-min.png",
         alt: "Tissue Therapy - Masaje Terapéutico Profesional",
       },
     ],
