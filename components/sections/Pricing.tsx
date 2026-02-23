@@ -3,13 +3,13 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { FadeIn } from '@/components/animations/FadeIn'
-import { Check, Sparkles, Waves, Heart, Activity } from 'lucide-react'
+import { Check, Sparkles, Waves, Heart, Brain } from 'lucide-react'
 import { SERVICES } from '@/lib/constants'
 
 const iconMap = {
   'deep-tissue': Waves,
-  'therapeutic': Heart,
-  'kinesitherapy': Activity
+  'circulation': Heart,
+  'craneal': Brain
 }
 
 const bonos = [

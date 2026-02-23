@@ -25,13 +25,14 @@ export const SERVICES = [
     id: 'deep-tissue',
     title: 'Masaje de Tejido Profundo',
     slug: 'masaje-tejido-profundo',
-    description: 'Técnica especializada para aliviar tensiones musculares profundas y contracturas crónicas.',
+    description: 'Técnica especializada para aliviar tensiones musculares profundas, contracturas y sobrecargas.',
     benefits: [
-      'Alivia dolor crónico de espalda, cuello y hombros',
-      'Mejora la movilidad articular',
-      'Reduce el estrés y la tensión acumulada',
-      'Aumenta la circulación sanguínea',
-      'Favorece la recuperación post-lesión'
+      'Contracturas',
+      'Sobrecargas',
+      'Dolor postural',
+      'Problemas articulares',
+      'Tendinitis',
+      'Mantenimiento'
     ],
     idealFor: [
       'Personas con trabajo sedentario',
@@ -40,58 +41,53 @@ export const SERVICES = [
       'Posturas incorrectas prolongadas'
     ],
     durations: [
-      { minutes: 60, price: 30 },
-      { minutes: 90, price: 55 }
+      { minutes: 40, price: 30 },
+      { minutes: 60, price: 40 }
     ],
     image: 'https://placehold.co/800x600/7000a0/white?text=Deep+Tissue+Massage'
   },
   {
-    id: 'therapeutic',
-    title: 'Masaje Terapéutico',
-    slug: 'masaje-terapeutico',
-    description: 'Tratamiento integral que combina diferentes técnicas para tratar dolencias específicas y mejorar tu salud general.',
+    id: 'circulation',
+    title: 'Sistema Nervioso y Circulación',
+    slug: 'sistema-nervioso-circulacion',
+    description: 'Tratamiento enfocado en mejorar la circulación y aliviar problemas del sistema nervioso periférico.',
     benefits: [
-      'Tratamiento personalizado según tus necesidades',
-      'Mejora la calidad del sueño',
-      'Reduce la ansiedad y el estrés',
-      'Alivia migrañas y cefaleas tensionales',
-      'Fortalece el sistema inmunológico'
+      'Piernas cansadas',
+      'Varices',
+      'Retención de líquidos'
     ],
     idealFor: [
-      'Recuperación de lesiones',
-      'Tratamiento de dolencias específicas',
-      'Mantenimiento de salud preventiva',
-      'Gestión del estrés'
+      'Personas con problemas circulatorios',
+      'Piernas cansadas e hinchadas',
+      'Retención de líquidos',
+      'Varices'
     ],
     durations: [
-      { minutes: 60, price: 30 },
-      { minutes: 90, price: 55 }
+      { minutes: 30, price: 20 }
     ],
-    image: 'https://placehold.co/800x600/7000a0/white?text=Therapeutic+Massage'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Sistema+Nervioso'
   },
   {
-    id: 'kinesitherapy',
-    title: 'Kinesioterapia',
-    slug: 'kinesioterapia',
-    description: 'Terapia mediante movimiento para recuperar y mejorar la función musculoesquelética.',
+    id: 'craneal',
+    title: 'Terapia Craneal',
+    slug: 'terapia-craneal',
+    description: 'Terapia manual especializada para aliviar cefaleas, migrañas, mareos y bruxismo.',
     benefits: [
-      'Recuperación funcional post-lesión',
-      'Mejora de la movilidad articular',
-      'Fortalecimiento muscular específico',
-      'Corrección postural',
-      'Prevención de lesiones'
+      'Cefaleas',
+      'Mareos',
+      'Migraña',
+      'Bruxismo'
     ],
     idealFor: [
-      'Rehabilitación post-quirúrgica',
-      'Lesiones deportivas',
-      'Problemas de movilidad',
-      'Prevención de lesiones recurrentes'
+      'Cefaleas tensionales',
+      'Migrañas recurrentes',
+      'Bruxismo y tensión mandibular',
+      'Mareos y vértigos'
     ],
     durations: [
-      { minutes: 45, price: 30 },
-      { minutes: 60, price: 55 }
+      { minutes: 40, price: 25 }
     ],
-    image: 'https://placehold.co/800x600/7000a0/white?text=Kinesitherapy'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Terapia+Craneal'
   }
 ]
 
