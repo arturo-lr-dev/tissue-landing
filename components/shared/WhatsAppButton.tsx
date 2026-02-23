@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export function WhatsAppButton() {
   const whatsappUrl = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(
-    '¡Hola! Me gustaría obtener más información sobre los servicios de masaje terapéutico.'
+    '¡Hola! Me gustaría obtener más información sobre los servicios de masaje.'
   )}`
 
   return (

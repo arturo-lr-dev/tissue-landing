@@ -6,7 +6,7 @@ import { CONTACT_INFO } from '@/lib/constants'
 
 export function CTA() {
   const whatsappUrl = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(
-    '¡Hola! Me gustaría reservar una sesión de masaje terapéutico.'
+    '¡Hola! Me gustaría reservar una sesión de masaje.'
   )}`
 
   return (

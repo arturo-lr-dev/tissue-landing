@@ -20,19 +20,19 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Tissue Therapy - Masaje Terapéutico Profesional en Narón",
-  description: "Libérate del dolor muscular y recupera tu bienestar. Masaje terapéutico, tejido profundo y kinesioterapia en Narón, A Coruña. Reserva tu sesión hoy.",
-  keywords: ["masaje terapéutico", "masaje tejido profundo", "kinesioterapia", "Narón", "A Coruña", "fisioterapia", "dolor muscular"],
+  title: "Tissue Therapy - Masaje Profesional en Narón",
+  description: "Libérate del dolor muscular y recupera tu bienestar. Masaje de tejido profundo, tratamiento craneal y técnicas manuales profesionales en Narón, A Coruña. Reserva tu sesión hoy.",
+  keywords: ["masaje profesional", "masaje tejido profundo", "técnicas manuales", "Narón", "A Coruña", "bienestar", "dolor muscular"],
   authors: [{ name: "Tissue Therapy" }],
   openGraph: {
-    title: "Tissue Therapy - Masaje Terapéutico Profesional en Narón",
+    title: "Tissue Therapy - Masaje Profesional en Narón",
     description: "Libérate del dolor muscular y recupera tu bienestar con nuestros tratamientos personalizados.",
     type: "website",
     locale: "es_ES",
     images: [
       {
         url: "/og-image-min.png",
-        alt: "Tissue Therapy - Masaje Terapéutico Profesional",
+        alt: "Tissue Therapy - Masaje Profesional",
       },
     ],
   },

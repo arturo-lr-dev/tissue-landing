@@ -36,7 +36,7 @@ export function Hero() {
             className="mb-8"
           >
             <span className="inline-block text-sm md:text-base uppercase tracking-[0.3em] text-primary-300 font-medium border-b border-primary-400/40 pb-2">
-              Terapias manuales en Narón
+              Técnicas manuales en Narón
             </span>
           </motion.div>
 
@@ -58,7 +58,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            Masaje de tejido profundo, terapia craneal y tratamientos circulatorios.
+            Masaje de tejido profundo, tratamiento craneal y técnicas circulatorias.
             Técnicas especializadas para devolver a tu cuerpo su equilibrio natural.
           </motion.p>
 

@@ -19,7 +19,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed mb-6">
-              Tu bienestar es nuestra prioridad. Masaje terapéutico profesional en Narón.
+              Tu bienestar es nuestra prioridad. Masaje profesional en Narón.
             </p>
             <div className="flex gap-3">
               <a

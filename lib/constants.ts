@@ -69,9 +69,9 @@ export const SERVICES = [
   },
   {
     id: 'craneal',
-    title: 'Terapia Craneal',
-    slug: 'terapia-craneal',
-    description: 'Terapia manual especializada para aliviar cefaleas, migrañas, mareos y bruxismo.',
+    title: 'Tratamiento Craneal',
+    slug: 'tratamiento-craneal',
+    description: 'Técnica manual especializada para aliviar cefaleas, migrañas, mareos y bruxismo.',
     benefits: [
       'Cefaleas',
       'Mareos',
@@ -87,7 +87,7 @@ export const SERVICES = [
     durations: [
       { minutes: 40, price: 25 }
     ],
-    image: 'https://placehold.co/800x600/7000a0/white?text=Terapia+Craneal'
+    image: 'https://placehold.co/800x600/7000a0/white?text=Tratamiento+Craneal'
   }
 ]
 
@@ -100,7 +100,7 @@ export const TESTIMONIALS = [
     avatar: 'https://ui-avatars.com/api/?name=Manuel+Fernandez&background=7000a0&color=fff&size=128',
     rating: 5,
     text: 'Muy buen profesional y gran persona. Llegue con bastante dolor y en 2 sesiones la mejora es increible. Totalmente recomendable, y mucho trabajo de manos, el cual marca la diferencia con otros profesionales.',
-    service: 'Kinesioterapia'
+    service: 'Masaje Deportivo'
   },
   {
     id: 2,
@@ -109,7 +109,7 @@ export const TESTIMONIALS = [
     avatar: 'https://ui-avatars.com/api/?name=Jenn+Riveira&background=7000a0&color=fff&size=128',
     rating: 5,
     text: 'Genial! Mil por ciento recomendable. Se preocupa por que salgas como nuev@ de la sesión, siempre me pregunta cómo me ha ido la semana para saber qué zona trabajar. Muy agradable y simpático, te hace sentir comoda en todo momento y es super respetuoso 😀',
-    service: 'Masaje Terapéutico'
+    service: 'Masaje Profesional'
   },
   {
     id: 3,
@@ -118,7 +118,7 @@ export const TESTIMONIALS = [
     avatar: 'https://ui-avatars.com/api/?name=Noelia+Pupi&background=7000a0&color=fff&size=128',
     rating: 5,
     text: 'Después de ir a muchos centros sin duda este es el mejor, trato estupendo, sitio muy acogedor e higiénico...se nota cuando a la gente le gusta lo que hace y ayudar a los demás. Hacía mucho tiempo que no me sentía tan bien y tan cómoda.',
-    service: 'Masaje Terapéutico'
+    service: 'Masaje Profesional'
   },
   {
     id: 4,
@@ -126,8 +126,8 @@ export const TESTIMONIALS = [
     role: '',
     avatar: 'https://ui-avatars.com/api/?name=Maria+Bardaos&background=7000a0&color=fff&size=128',
     rating: 5,
-    text: 'Excelente experiencia con el fisioterapeuta. Su enfoque profesional y empático, combinado con un tratamiento personalizado, resultó en una notable mejora en mi movilidad y reducción del dolor. Altamente recomendado para aquellos que buscan atención experta y personalizada.',
-    service: 'Masaje Terapéutico'
+    text: 'Excelente experiencia con el especialista. Su enfoque profesional y empático, combinado con un tratamiento personalizado, resultó en una notable mejora en mi movilidad y reducción del dolor. Altamente recomendado para aquellos que buscan atención experta y personalizada.',
+    service: 'Masaje Profesional'
   }
 ]
 
@@ -147,7 +147,7 @@ export const FAQS = [
   },
   {
     question: '¿Puedo acudir si tengo una lesión?',
-    answer: 'Sí, el masaje terapéutico y la kinesioterapia son excelentes para recuperación de lesiones. Sin embargo, es importante que informes sobre cualquier lesión o condición médica antes del tratamiento.'
+    answer: 'Sí, el masaje profesional y las técnicas manuales son excelentes para recuperación de lesiones. Sin embargo, es importante que informes sobre cualquier lesión o condición médica antes del tratamiento.'
   },
   {
     question: '¿Qué debo llevar a mi primera sesión?',
@@ -170,7 +170,7 @@ export const FAQS = [
     answer: 'Sí, tenemos bonos de 5 y 10 sesiones con descuentos del 10% y 15% respectivamente. Además, tu primera sesión tiene un 20% de descuento.'
   },
   {
-    question: '¿Qué diferencia hay entre masaje terapéutico y de tejido profundo?',
-    answer: 'El masaje de tejido profundo se enfoca específicamente en capas musculares profundas con técnicas de presión intensa. El masaje terapéutico es más integral y combina diferentes técnicas según tus necesidades específicas.'
+    question: '¿Qué diferencia hay entre masaje general y de tejido profundo?',
+    answer: 'El masaje de tejido profundo se enfoca específicamente en capas musculares profundas con técnicas de presión intensa. El masaje general es más integral y combina diferentes técnicas según tus necesidades específicas.'
   }
 ]

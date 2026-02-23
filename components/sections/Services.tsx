@@ -24,7 +24,7 @@ export function Services() {
             </h2>
             <div className="w-16 h-px bg-primary-400 mx-auto mb-6" />
             <p className="text-lg text-stone-500 max-w-xl mx-auto font-light leading-relaxed">
-              Terapias manuales profesionales adaptadas a tus necesidades específicas
+              Técnicas manuales profesionales adaptadas a tus necesidades específicas
             </p>
           </div>
         </FadeIn>

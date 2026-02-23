@@ -5,10 +5,10 @@ import { FadeIn } from '@/components/animations/FadeIn'
 import { GraduationCap, Award, BookOpen, RefreshCw } from 'lucide-react'
 
 const certifications = [
-  { icon: GraduationCap, text: 'Diplomado en Fisioterapia' },
+  { icon: GraduationCap, text: 'Diplomado en técnicas manuales' },
   { icon: Award, text: 'Certificación en Masaje de Tejido Profundo' },
-  { icon: BookOpen, text: 'Curso avanzado de Kinesioterapia' },
-  { icon: RefreshCw, text: 'Formación continua en técnicas terapéuticas' },
+  { icon: BookOpen, text: 'Curso avanzado de técnicas especializadas' },
+  { icon: RefreshCw, text: 'Formación continua en bienestar corporal' },
 ]
 
 export function About() {
@@ -22,7 +22,7 @@ export function About() {
               <div className="relative h-[550px] rounded-2xl overflow-hidden">
                 <Image
                   src="images/therapist-portrait.webp"
-                  alt="Terapeuta profesional"
+                  alt="Especialista profesional"
                   fill
                   className="object-cover"
                   unoptimized
@@ -61,7 +61,7 @@ export function About() {
               <div className="w-16 h-px bg-primary-400 mb-8" />
 
               <p className="text-lg text-stone-600 mb-6 leading-relaxed font-light">
-                Soy un terapeuta profesional especializado en masaje terapéutico
+                Soy un profesional especializado en masaje de tejido profundo
                 y técnicas manuales avanzadas. Con más de 5 años de experiencia, mi objetivo
                 es ayudarte a recuperar tu bienestar físico y mental.
               </p>

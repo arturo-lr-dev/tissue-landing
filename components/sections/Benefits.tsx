@@ -5,7 +5,7 @@ const benefits = [
   {
     icon: Award,
     title: 'Experiencia Profesional',
-    description: 'Más de 5 años dedicados al bienestar y salud terapéutica',
+    description: 'Más de 5 años dedicados a tu bienestar y salud',
   },
   {
     icon: User,
