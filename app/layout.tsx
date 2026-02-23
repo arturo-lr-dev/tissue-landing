@@ -1,8 +1,23 @@
 import type { Metadata } from "next";
+import { Cormorant_Garamond, Outfit } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/shared/Header";
 import { Footer } from "@/components/shared/Footer";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
+
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-heading",
+  display: "swap",
+});
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-body",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Tissue Therapy - Masaje Terapéutico Profesional en Narón",
@@ -29,8 +44,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="scroll-smooth">
-      <body className="antialiased font-sans">
+    <html lang="es" className={`scroll-smooth ${cormorant.variable} ${outfit.variable}`}>
+      <body className="antialiased font-body">
         <Header />
         <main>{children}</main>
         <Footer />

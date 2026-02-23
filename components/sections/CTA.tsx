@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/Button'
 import { FadeIn } from '@/components/animations/FadeIn'
-import { Phone, MessageCircle, Calendar } from 'lucide-react'
+import { Phone, MessageCircle } from 'lucide-react'
 import { CONTACT_INFO } from '@/lib/constants'
 
 export function CTA() {
@@ -10,26 +10,31 @@ export function CTA() {
   )}`
 
   return (
-    <section id="reservar" className="py-20 bg-gradient-to-br from-primary-600 to-primary-700 text-white">
-      <div className="container mx-auto px-4">
+    <section id="reservar" className="relative py-24 bg-stone-900 text-white overflow-hidden grain">
+      {/* Warm gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-secondary-900/20" />
+
+      <div className="container relative z-10 mx-auto px-4">
         <FadeIn>
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              ¿Listo para Recuperar tu Bienestar?
+          <div className="max-w-3xl mx-auto text-center">
+            <span className="text-sm uppercase tracking-[0.3em] text-primary-400 font-medium">Reserva</span>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-semibold mt-4 mb-6 leading-tight">
+              ¿Listo para recuperar tu{' '}
+              <span className="italic font-normal text-primary-300">bienestar</span>?
             </h2>
-            <p className="text-xl md:text-2xl mb-12 text-primary-50 leading-relaxed">
-              Reserva tu sesión hoy y da el primer paso hacia una vida sin dolor
-              y con más energía. Tu salud merece la mejor atención.
+            <p className="text-lg text-stone-400 mb-12 leading-relaxed font-light max-w-xl mx-auto">
+              Reserva tu sesión hoy y da el primer paso hacia una vida sin dolor.
+              Tu salud merece la mejor atención.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button size="lg" variant="secondary" asChild>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+              <Button size="lg" asChild>
                 <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2 w-5 h-5" />
                   Reservar por WhatsApp
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild>
+              <Button size="lg" variant="outline" asChild className="border-stone-600 text-white hover:bg-stone-800 hover:border-stone-500">
                 <a href={`tel:${CONTACT_INFO.phone}`}>
                   <Phone className="mr-2 w-5 h-5" />
                   Llamar Ahora
@@ -37,43 +42,12 @@ export function CTA() {
               </Button>
             </div>
 
-            {/* Benefits List */}
-            <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6">
-                <Calendar className="w-10 h-10 mx-auto mb-3" />
-                <h3 className="font-bold text-lg mb-2">Reserva Fácil</h3>
-                <p className="text-sm text-primary-50">
-                  Por WhatsApp
-                </p>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6">
-                <MessageCircle className="w-10 h-10 mx-auto mb-3" />
-                <h3 className="font-bold text-lg mb-2">Respuesta Rápida</h3>
-                <p className="text-sm text-primary-50">
-                  Te confirmamos en minutos
-                </p>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6">
-                <Phone className="w-10 h-10 mx-auto mb-3" />
-                <h3 className="font-bold text-lg mb-2">Atención Personal</h3>
-                <p className="text-sm text-primary-50">
-                  Resolvemos todas tus dudas
-                </p>
-              </div>
+            {/* First session offer */}
+            <div className="inline-block bg-primary-600/20 border border-primary-500/30 rounded-full px-8 py-3">
+              <span className="text-primary-300 font-medium text-sm">
+                20% de descuento en tu primera sesión
+              </span>
             </div>
-          </div>
-        </FadeIn>
-
-        {/* Special Offer Reminder */}
-        <FadeIn delay={0.2}>
-          <div className="mt-12 max-w-2xl mx-auto bg-yellow-400 text-gray-900 rounded-xl p-6 text-center shadow-2xl">
-            <p className="text-lg font-bold mb-2">
-              🎉 ¡Oferta Especial Primera Sesión!
-            </p>
-            <p className="text-sm">
-              20% de descuento en tu primera visita. No pierdas esta
-              oportunidad.
-            </p>
           </div>
         </FadeIn>
       </div>

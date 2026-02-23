@@ -12,31 +12,32 @@ import { FAQS } from '@/lib/constants'
 
 export function FAQ() {
   return (
-    <section id="faq" className="py-20 bg-white">
+    <section id="faq" className="py-24 bg-cream grain">
       <div className="container mx-auto px-4">
         <FadeIn>
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-            Preguntas Frecuentes
-          </h2>
-          <p className="text-xl text-center text-gray-600 mb-16 max-w-2xl mx-auto">
-            Resolvemos tus dudas para que tomes la mejor decisión
-          </p>
+          <div className="text-center mb-20">
+            <span className="text-sm uppercase tracking-[0.3em] text-primary-500 font-medium">Dudas</span>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-semibold mt-4 mb-6 text-stone-900">
+              Preguntas <span className="italic font-normal">Frecuentes</span>
+            </h2>
+            <div className="w-16 h-px bg-primary-400 mx-auto" />
+          </div>
         </FadeIn>
 
         <div className="max-w-3xl mx-auto">
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion type="single" collapsible className="space-y-3">
             {FAQS.map((faq, index) => (
               <FadeIn key={index} delay={index * 0.05}>
                 <AccordionItem
                   value={`item-${index}`}
-                  className="border border-gray-200 rounded-lg px-6 hover:border-primary-600 transition-colors"
+                  className="border border-stone-200/60 bg-warm-white rounded-xl px-6 hover:border-primary-400/50 transition-colors"
                 >
                   <AccordionTrigger className="text-left hover:no-underline py-5">
-                    <span className="font-semibold text-lg pr-4 text-gray-900">
+                    <span className="font-heading font-semibold text-lg pr-4 text-stone-900">
                       {faq.question}
                     </span>
                   </AccordionTrigger>
-                  <AccordionContent className="text-gray-600 pb-5 leading-relaxed">
+                  <AccordionContent className="text-stone-500 pb-5 leading-relaxed">
                     {faq.answer}
                   </AccordionContent>
                 </AccordionItem>
@@ -46,8 +47,8 @@ export function FAQ() {
         </div>
 
         <FadeIn delay={0.6}>
-          <div className="text-center mt-12">
-            <p className="text-gray-600 mb-4 text-lg">
+          <div className="text-center mt-16">
+            <p className="text-stone-500 mb-4">
               ¿Tienes más preguntas?
             </p>
             <Button variant="secondary" size="lg" asChild>

@@ -1,5 +1,3 @@
-import { Card, CardContent } from '@/components/ui/Card'
-import { Badge } from '@/components/ui/Badge'
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/Avatar'
 import { FadeIn } from '@/components/animations/FadeIn'
 import { Star, Quote } from 'lucide-react'
@@ -7,68 +5,60 @@ import { TESTIMONIALS } from '@/lib/constants'
 
 function TestimonialCard({ testimonial }: { testimonial: typeof TESTIMONIALS[0] }) {
   return (
-    <Card className="h-full bg-white hover:shadow-xl transition-shadow">
-      <CardContent className="p-6">
-        {/* Quote Icon */}
-        <Quote className="w-10 h-10 text-primary-200 mb-4" />
+    <div className="h-full p-8 rounded-2xl bg-warm-white border border-stone-200/50 hover:shadow-lg hover:shadow-primary-900/5 transition-all duration-500">
+      {/* Quote */}
+      <Quote className="w-8 h-8 text-primary-300 mb-5" />
 
-        {/* Rating */}
-        <div className="flex gap-1 mb-4">
-          {[...Array(testimonial.rating)].map((_, i) => (
-            <Star
-              key={i}
-              className="w-5 h-5 fill-yellow-400 text-yellow-400"
-            />
-          ))}
+      {/* Rating */}
+      <div className="flex gap-1 mb-5">
+        {[...Array(testimonial.rating)].map((_, i) => (
+          <Star key={i} className="w-4 h-4 fill-primary-400 text-primary-400" />
+        ))}
+      </div>
+
+      {/* Text */}
+      <p className="text-stone-600 mb-8 leading-[1.8] text-[15px]">
+        &ldquo;{testimonial.text}&rdquo;
+      </p>
+
+      {/* Author */}
+      <div className="flex items-center gap-4 pt-6 border-t border-stone-100">
+        <Avatar className="w-11 h-11">
+          <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
+          <AvatarFallback className="bg-primary-100 text-primary-700 font-heading font-semibold">
+            {testimonial.name.charAt(0)}
+          </AvatarFallback>
+        </Avatar>
+        <div>
+          <div className="font-medium text-stone-900 text-sm">{testimonial.name}</div>
+          {testimonial.role && (
+            <div className="text-xs text-stone-400">{testimonial.role}</div>
+          )}
         </div>
-
-        {/* Text */}
-        <p className="text-gray-700 mb-6 leading-relaxed text-lg">
-          "{testimonial.text}"
-        </p>
-
-        {/* Author */}
-        <div className="flex items-center gap-4 border-t pt-4">
-          <Avatar className="w-12 h-12">
-            <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
-            <AvatarFallback className="bg-primary-100 text-primary-600">
-              {testimonial.name.charAt(0)}
-            </AvatarFallback>
-          </Avatar>
-          <div className="flex-1">
-            <div className="font-semibold text-gray-900">
-              {testimonial.name}
-            </div>
-            <div className="text-sm text-gray-500">{testimonial.role}</div>
-          </div>
-        </div>
-
-        {/* Service Badge */}
-        <div className="mt-4">
-          <Badge variant="secondary" className="text-xs">
-            {testimonial.service}
-          </Badge>
-        </div>
-      </CardContent>
-    </Card>
+      </div>
+    </div>
   )
 }
 
 export function Testimonials() {
   return (
-    <section className="py-20 bg-primary-50">
+    <section className="py-24 bg-cream grain">
       <div className="container mx-auto px-4">
         <FadeIn>
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-            Lo Que Dicen Nuestros Clientes
-          </h2>
-          <p className="text-xl text-center text-gray-600 mb-16 max-w-2xl mx-auto">
-            La satisfacción de nuestros clientes es nuestro mejor aval
-          </p>
+          <div className="text-center mb-20">
+            <span className="text-sm uppercase tracking-[0.3em] text-primary-500 font-medium">Testimonios</span>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-semibold mt-4 mb-6 text-stone-900">
+              Lo que dicen nuestros <span className="italic font-normal">clientes</span>
+            </h2>
+            <div className="w-16 h-px bg-primary-400 mx-auto mb-6" />
+            <p className="text-lg text-stone-500 max-w-xl mx-auto font-light leading-relaxed">
+              La satisfacción de nuestros clientes es nuestro mejor aval
+            </p>
+          </div>
         </FadeIn>
 
-        {/* Testimonials Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
+        {/* Grid */}
+        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto mb-16">
           {TESTIMONIALS.map((testimonial, index) => (
             <FadeIn key={testimonial.id} delay={index * 0.1}>
               <TestimonialCard testimonial={testimonial} />
@@ -76,29 +66,17 @@ export function Testimonials() {
           ))}
         </div>
 
-        {/* Trust Badges */}
+        {/* Google rating */}
         <FadeIn delay={0.4}>
-          <div className="flex flex-wrap justify-center gap-12 mt-12 p-8 bg-white rounded-xl shadow-sm">
-            <div className="text-center">
-              <div className="text-5xl font-bold text-primary-600 mb-2">98%</div>
-              <div className="text-sm text-gray-600 font-medium">
-                Satisfacción
-              </div>
+          <div className="flex items-center justify-center gap-3">
+            <div className="flex gap-0.5">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 fill-primary-400 text-primary-400" />
+              ))}
             </div>
-            <div className="text-center">
-              <div className="text-5xl font-bold text-primary-600 mb-2">
-                1000+
-              </div>
-              <div className="text-sm text-gray-600 font-medium">
-                Clientes Felices
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl font-bold text-primary-600 mb-2">5.0</div>
-              <div className="text-sm text-gray-600 font-medium">
-                Valoración Media
-              </div>
-            </div>
+            <span className="text-stone-600 text-sm">
+              <span className="font-semibold">5.0</span> en Google Reviews
+            </span>
           </div>
         </FadeIn>
       </div>
