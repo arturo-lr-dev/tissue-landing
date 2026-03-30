@@ -14,8 +14,9 @@ export const CONTACT_INFO = {
 
 // Horarios
 export const SCHEDULE = {
-  weekdays: 'Lunes a Viernes: 9:00 - 20:00',
-  saturday: 'Sábados: 10:00 - 14:00',
+  weekdays: 'Lunes a Jueves: 10:00 - 13:00 y 16:00 - 20:30',
+  friday: 'Viernes: 10:00 - 14:00',
+  saturday: 'Sábados: Cerrado',
   sunday: 'Domingos: Cerrado'
 }
 

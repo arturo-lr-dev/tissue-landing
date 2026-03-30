@@ -85,6 +85,7 @@ export function Location() {
                   <h3 className="font-heading font-semibold text-stone-900 mb-2">Horario</h3>
                   <div className="space-y-1 text-stone-500 text-sm">
                     <p>{SCHEDULE.weekdays}</p>
+                    <p>{SCHEDULE.friday}</p>
                     <p>{SCHEDULE.saturday}</p>
                     <p>{SCHEDULE.sunday}</p>
                   </div>
