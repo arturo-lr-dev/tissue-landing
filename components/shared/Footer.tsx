@@ -93,6 +93,7 @@ export function Footer() {
               <Clock className="w-4 h-4 text-primary-500 flex-shrink-0 mt-0.5" />
               <div className="space-y-2 text-sm">
                 <p>{SCHEDULE.weekdays}</p>
+                <p>{SCHEDULE.friday}</p>
                 <p>{SCHEDULE.saturday}</p>
                 <p>{SCHEDULE.sunday}</p>
               </div>
