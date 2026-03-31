@@ -27,7 +27,7 @@ export function CTA() {
               Tu salud merece la mejor atención.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" asChild>
                 <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2 w-5 h-5" />
@@ -40,6 +40,12 @@ export function CTA() {
                   Llamar Ahora
                 </a>
               </Button>
+            </div>
+
+            <div className="inline-block bg-primary-600/20 border border-primary-500/30 rounded-full px-8 py-3">
+              <span className="text-primary-300 font-medium text-sm">
+                Vuelve en tu próxima sesión y ahorra 5€
+              </span>
             </div>
 
           </div>
