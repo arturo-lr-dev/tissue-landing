@@ -159,8 +159,8 @@ export const FAQS = [
     answer: 'Siempre que haya disponibilidad, sí. Te recomendamos reservar con antelación para asegurar el horario que prefieres, aunque también atendemos citas urgentes cuando es posible.'
   },
   {
-    question: '¿Aceptan tarjeta de crédito?',
-    answer: 'Sí, aceptamos efectivo, tarjeta de crédito/débito y Bizum para tu comodidad.'
+    question: '¿Qué métodos de pago aceptan?',
+    answer: 'Aceptamos efectivo y Bizum. No disponemos de datáfono para pagos con tarjeta.'
   },
   {
     question: '¿Puedo cancelar o reprogramar mi cita?',
