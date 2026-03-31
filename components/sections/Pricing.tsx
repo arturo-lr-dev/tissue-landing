@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { FadeIn } from '@/components/animations/FadeIn'
-import { Check, Sparkles, Waves, Heart, Brain } from 'lucide-react'
+import { Check, Waves, Heart, Brain } from 'lucide-react'
 import { SERVICES } from '@/lib/constants'
 
 const iconMap = {
@@ -10,20 +10,6 @@ const iconMap = {
   'circulation': Heart,
   'craneal': Brain
 }
-
-const bonos = [
-  {
-    sessions: 5,
-    discount: '10%',
-    savings: 'hasta 35€'
-  },
-  {
-    sessions: 10,
-    discount: '15%',
-    savings: 'hasta 105€',
-    popular: true
-  }
-]
 
 export function Pricing() {
   return (
@@ -94,62 +80,6 @@ export function Pricing() {
           })}
         </div>
 
-        {/* Bonos */}
-        <FadeIn delay={0.3}>
-          <div className="bg-stone-900 rounded-3xl p-10 md:p-14 text-white max-w-4xl mx-auto mb-10 grain">
-            <div className="text-center mb-10">
-              <span className="text-sm uppercase tracking-[0.3em] text-primary-400 font-medium">Ahorra más</span>
-              <h3 className="text-3xl md:text-4xl font-heading font-semibold mt-3">
-                Bonos de Sesiones
-              </h3>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              {bonos.map((bono, index) => (
-                <div
-                  key={index}
-                  className={`rounded-2xl p-8 text-center relative transition-all ${
-                    bono.popular
-                      ? 'bg-primary-600 shadow-xl shadow-primary-900/30'
-                      : 'bg-stone-800 border border-stone-700'
-                  }`}
-                >
-                  {bono.popular && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary-300 text-stone-900 text-xs font-semibold px-4 py-1 rounded-full uppercase tracking-wider">
-                      Popular
-                    </span>
-                  )}
-                  <div className="text-5xl font-heading font-bold mb-1">{bono.sessions}</div>
-                  <div className="text-sm uppercase tracking-wider text-white/70 mb-4">Sesiones</div>
-                  <div className="text-3xl font-heading font-semibold text-primary-300 mb-2">{bono.discount} OFF</div>
-                  <div className="text-sm text-white/60">Ahorra {bono.savings}</div>
-                </div>
-              ))}
-            </div>
-
-            <div className="text-center mt-10">
-              <Button size="lg" variant="secondary" asChild>
-                <Link href="#reservar">Consultar Bonos</Link>
-              </Button>
-            </div>
-          </div>
-        </FadeIn>
-
-        {/* First Session Offer */}
-        <FadeIn delay={0.4}>
-          <div className="bg-primary-50 border border-primary-200 rounded-2xl p-8 text-center max-w-2xl mx-auto">
-            <Sparkles className="w-10 h-10 text-primary-500 mx-auto mb-4" />
-            <h4 className="text-2xl font-heading font-semibold mb-2 text-stone-900">
-              Oferta Primera Sesión
-            </h4>
-            <p className="text-stone-600 mb-6">
-              20% de descuento en tu primera visita
-            </p>
-            <Button size="lg" asChild>
-              <Link href="#reservar">Aprovechar Oferta</Link>
-            </Button>
-          </div>
-        </FadeIn>
       </div>
     </section>
   )

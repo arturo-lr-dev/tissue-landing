@@ -167,10 +167,6 @@ export const FAQS = [
     answer: 'Sí, puedes cancelar o reprogramar con al menos 24 horas de antelación sin coste alguno. Entendemos que surgen imprevistos.'
   },
   {
-    question: '¿Ofrecen bonos o paquetes?',
-    answer: 'Sí, tenemos bonos de 5 y 10 sesiones con descuentos del 10% y 15% respectivamente. Además, tu primera sesión tiene un 20% de descuento.'
-  },
-  {
     question: '¿Qué diferencia hay entre masaje general y de tejido profundo?',
     answer: 'El masaje de tejido profundo se enfoca específicamente en capas musculares profundas con técnicas de presión intensa. El masaje general es más integral y combina diferentes técnicas según tus necesidades específicas.'
   }
