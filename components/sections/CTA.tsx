@@ -42,12 +42,6 @@ export function CTA() {
               </Button>
             </div>
 
-            {/* First session offer */}
-            <div className="inline-block bg-primary-600/20 border border-primary-500/30 rounded-full px-8 py-3">
-              <span className="text-primary-300 font-medium text-sm">
-                20% de descuento en tu primera sesión
-              </span>
-            </div>
           </div>
         </FadeIn>
       </div>
